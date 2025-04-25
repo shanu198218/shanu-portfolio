@@ -36,9 +36,8 @@ export function Blogs() {
   return (
     <div>
       <Card className="mt-4 relative overflow-hidden bg-primary shadow-none transition-all ">
-        
         <CardHeader className="relative pb-2">
-          <CardTitle className="text-xl font-bold">Blogs</CardTitle>
+          <CardTitle className="text-xl font-bold text-white">Blogs</CardTitle>
           <CardDescription className="text-sm text-white/80">
             Checking my blogs below links
           </CardDescription>
@@ -48,15 +47,18 @@ export function Blogs() {
           {blogList.map((blog, index) => (
             <Card
               key={index}
-              className="relative overflow-hidden max-w-xl w-full hover:bg-primary/10"
+              className="relative overflow-hidden max-w-xl w-full bg-grey-darker shadow-md hover:bg-primary/10"
             >
-              <ShineBorder duration={8}  shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]} />
+              <ShineBorder
+                duration={8}
+                shineColor={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
+              />
               <CardHeader className="text-center text-2xl font-semibold relative">
                 <Link
                   href={blog.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" text-base "
+                  className=" text-base text-white  "
                 >
                   {blog.title}
                 </Link>

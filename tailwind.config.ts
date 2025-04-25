@@ -34,6 +34,17 @@ const config: Config = {
           DEFAULT: "#1a1a1a",
           foreground: "hsl(var(--primary-foreground))",
         },
+        grey: {
+          deep: "#262626",
+          darker: "#333333",
+          dark: "#454545",
+          base: "#82868C",
+          light: "#C9C9C9",
+          lighter: "#E6EBF0",
+          lightest: "#F4F4F6",
+          date: "#B8B8B8",
+          muted: "#E6E6E6",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
