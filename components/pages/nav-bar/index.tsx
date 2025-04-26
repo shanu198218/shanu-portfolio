@@ -9,26 +9,25 @@ import { cn } from "@/lib/utils"; // For merging Tailwind classes (optional)
 
 const navItems = [
   { label: "Home", href: "/home" },
-  { label: "Service", href: "#service" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Testmonial", href: "#testimonial" },
+  {
+    label: "Linkdine",
+    href: "https://www.linkedin.com/in/shamali-dilrukshi-482478225/",
+  },
+  { label: "GitHub", href: "https://github.com/shanu198218" },
+  {
+    label: "Medium",
+    href: "https://www.facebook.com/share/1AFxAfKWz7/?mibextid=wwXIfr",
+  },
 ];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="w-full bg-[#f9f6ee] z-50 relative">
+    <header className="w-full bg-white/60 z-50 relative">
       <div className="flex items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link href="/" className="flex md:items-center space-x-2">
-          <button
-            className="md:hidden"
-            onClick={() => setMenuOpen(true)}
-            aria-label="Open menu"
-          >
-            <Menu color="black" size={24} />
-          </button>
           <div className="w-6 h-6 rounded-full bg-gradient-to-r from-yellow-400 to-black flex items-center justify-center text-white">
             <div className="w-1 h-4 bg-white rounded" />
           </div>
@@ -41,7 +40,7 @@ export default function Navbar() {
             <Link
               key={item.label}
               href={item.href}
-              className="relative text-sm font-medium text-gray-700 hover:text-black after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
+              className="relative text-sm font-medium text-grey-deep hover:text-black after:content-[''] after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full"
             >
               {item.label}
             </Link>

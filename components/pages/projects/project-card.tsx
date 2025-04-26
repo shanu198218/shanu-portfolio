@@ -11,7 +11,7 @@ import {
 
 const ProjectCard = ({ title, description, image, link }: any) => (
   <PinContainer title={title} href={link} className="bg-primary">
-    <Card className="w-[20rem] min-h-[26rem] flex flex-col justify-between p-4 bg-primary text-white shadow-md">
+    <Card className="w-[20rem] h-[29rem] flex flex-col justify-between p-4 bg-primary text-white shadow-md">
       <CardHeader className="pb-2 space-y-2">
         <CardTitle className="text-xl">
           <AuroraText>{title}</AuroraText>

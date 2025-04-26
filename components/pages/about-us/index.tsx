@@ -49,6 +49,15 @@ export default function AboutCard() {
               </p>
             </CardContent>
           </div>
+          <div className="flex flex-col md:flex-row items-center justify-between mt-8">
+            <a
+              href="/shamali_dilrukshi_cv.pdf"
+              download="Shamali_Dilrukshi_CV.pdf"
+              className="ml-auto rounded-md bg-primary text-white hover:bg-grey-dark px-4 py-2 border border-white text-center"
+            >
+              Download cv
+            </a>
+          </div>
         </Card>
       </Container>
     </>
