@@ -1,11 +1,11 @@
-// components/pages/nav-bar.tsx
+
 "use client";
 
 import Link from "next/link";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { cn } from "@/lib/utils"; // For merging Tailwind classes (optional)
+import { cn } from "@/lib/utils";
 
 const navItems = [
   { label: "Home", href: "/home" },
