@@ -30,17 +30,15 @@ export default function AboutCard() {
               <h2 className="text-3xl font-serif tracking-widest mb-4">
                 Shamali Dilrukshi
               </h2>
-              <p className="mb-4">
-                Hello! I&apos;m a fullstack developer
-              </p>
+              <p className="mb-4">Hello! I&apos;m a fullstack developer</p>
               <p className="text-sm text-justify mb-4">
-                Advanced web applications have been built by a dedicated
-                Full Stack Software Engineer with over 2+ years of
-                hands-on experience. Proficient in frontend technologies like
-                Next.js, Tailwind CSS, and React.js, with backend experience in
-                Nest.js and Node.js. Skilled in working with PHPMyAdmin and
-                Firebase databases, and experienced in deploying applications
-                via platforms such as Vercel, Netlify, and Firebase Firestore.
+                Advanced web applications have been built by a dedicated Full
+                Stack Software Engineer with over 2+ years of hands-on
+                experience. Proficient in frontend technologies like Next.js,
+                Tailwind CSS, and React.js, with backend experience in Nest.js
+                and Node.js. Skilled in working with PHPMyAdmin and Firebase
+                databases, and experienced in deploying applications via
+                platforms such as Vercel, Netlify, and Firebase Firestore.
               </p>
               <p className="text-sm">
                 Also certified in GraphQL and AWS, I continuously strive to grow
