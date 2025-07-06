@@ -31,11 +31,11 @@ export default function AboutCard() {
                 Shamali Dilrukshi
               </h2>
               <p className="mb-4">
-                Hello! I&apos;m a Associate fullstack developer
+                Hello! I&apos;m a fullstack developer
               </p>
               <p className="text-sm text-justify mb-4">
                 Advanced web applications have been built by a dedicated
-                Associate Full Stack Software Engineer with over 2+ years of
+                Full Stack Software Engineer with over 2+ years of
                 hands-on experience. Proficient in frontend technologies like
                 Next.js, Tailwind CSS, and React.js, with backend experience in
                 Nest.js and Node.js. Skilled in working with PHPMyAdmin and
@@ -51,7 +51,7 @@ export default function AboutCard() {
           </div>
           <div className="flex flex-col md:flex-row items-center justify-between mt-8">
             <a
-              href="/shamali_dilrukshi_cv.pdf"
+              href="/shamali dilrukshi.pdf"
               download="Shamali_Dilrukshi_CV.pdf"
               className="ml-auto rounded-md bg-primary text-white hover:bg-grey-dark px-4 py-2 border border-white text-center"
             >
