@@ -87,6 +87,7 @@
 }
 
 @theme inline {
+  --animate-border-beam: border-beam 6s linear infinite;
   @keyframes shine {
     0% {
       background-position: 0% 0%;
@@ -96,6 +97,14 @@
     }
     to {
       background-position: 0% 0%;
+    }
+  }
+  @keyframes border-beam {
+    from {
+      offset-distance: var(--beam-start);
+    }
+    to {
+      offset-distance: var(--beam-end);
     }
   }
   @keyframes orbit {
