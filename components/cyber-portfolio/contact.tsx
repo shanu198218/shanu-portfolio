@@ -30,7 +30,7 @@ export function CyberContact() {
         {/* Header */}
         <div className="font-mono text-xs text-[#ccff00] mb-8 tracking-wider flex items-center gap-2">
           <span className="font-semibold">05 // INITIATE TRANSMISSION</span>
-          <span className="text-neutral-500">//</span>
+          <span className="text-neutral-500">{"//"}</span>
           <span className="text-neutral-300">CONTACT &amp; ENGAGEMENT</span>
         </div>
 

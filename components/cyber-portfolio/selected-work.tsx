@@ -30,7 +30,7 @@ export function CyberSelectedWork() {
               <span className="font-semibold">
                 01 // PRODUCTION WORK &amp; ARCHITECTURE
               </span>
-              <span className="text-neutral-600">//</span>
+              <span className="text-neutral-600">{"//"}</span>
               <span className="text-neutral-300">06 PROJECTS DISPLAYED</span>
             </div>
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white uppercase font-sans">

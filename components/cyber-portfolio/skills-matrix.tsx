@@ -104,7 +104,7 @@ export function CyberSkillsMatrix() {
               <span className="font-semibold">
                 03 // TAXONOMY &amp; CAPABILITIES
               </span>
-              <span className="text-neutral-500">//</span>
+              <span className="text-neutral-500">{"//"}</span>
               <span className="text-neutral-300">
                 CORE STACK &amp; METHODOLOGY
               </span>

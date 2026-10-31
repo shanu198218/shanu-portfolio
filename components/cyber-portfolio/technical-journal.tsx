@@ -53,7 +53,7 @@ export function CyberTechnicalJournal() {
               <span className="font-semibold">
                 04 // PUBLICATIONS &amp; WRITING
               </span>
-              <span className="text-neutral-500">//</span>
+              <span className="text-neutral-500">{"//"}</span>
               <span className="text-neutral-300">CODIFIED METHODS</span>
             </div>
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white uppercase font-sans">
@@ -80,7 +80,7 @@ export function CyberTechnicalJournal() {
                 {/* Volume badge */}
                 <div className="lg:col-span-2 font-mono text-xs text-[#ccff00] flex items-center gap-2">
                   <span className="font-extrabold text-sm">{art.vol}</span>
-                  <span className="text-neutral-600">//</span>
+                  <span className="text-neutral-600">{"//"}</span>
                 </div>
 
                 {/* Title & Description */}

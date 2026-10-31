@@ -20,7 +20,7 @@ export function CyberPhilosophy() {
                 <span className="font-semibold">
                   02 // PHILOSOPHY &amp; ETHOS
                 </span>
-                <span className="text-neutral-500">//</span>
+                <span className="text-neutral-500">{"//"}</span>
                 <span className="text-neutral-300">
                   ARCHITECTURAL STATEMENT
                 </span>
@@ -81,7 +81,7 @@ export function CyberPhilosophy() {
           <div className="lg:col-span-7 space-y-8">
             <div>
               <div className="font-mono text-xs text-[#ccff00] mb-4 tracking-wider font-semibold">
-                // ARCHITECTURE &amp; ENGINEERING PHILOSOPHY
+                {"// ARCHITECTURE & ENGINEERING PHILOSOPHY"}
               </div>
 
               {/* High Contrast Narrative */}

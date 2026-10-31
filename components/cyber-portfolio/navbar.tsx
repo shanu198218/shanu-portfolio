@@ -60,7 +60,7 @@ export function CyberNavbar() {
             {/* Location & Time */}
             <div className="hidden lg:flex items-center gap-2 text-neutral-300 font-mono text-xs tracking-wider border-l border-[#263140] pl-4">
               <span className="font-medium text-neutral-200">SRI LANKA</span>
-              <span className="text-neutral-500">//</span>
+              <span className="text-neutral-500">{"//"}</span>
               <span className="text-white font-semibold">
                 {currentTime ? `${currentTime} UTC+5:30` : "UTC+05:30"}
               </span>
@@ -113,7 +113,7 @@ export function CyberNavbar() {
         <div className="max-w-7xl mx-auto flex items-center justify-between text-xs font-mono text-neutral-300 overflow-x-auto no-scrollbar gap-4 font-medium">
           <div className="flex items-center gap-2 shrink-0">
             <span className="text-[#ccff00] font-bold">SYS.VER</span>
-            <span className="text-neutral-500">//</span>
+            <span className="text-neutral-500">{"//"}</span>
             <span className="text-neutral-100">2.4.02</span>
           </div>
 
@@ -131,7 +131,7 @@ export function CyberNavbar() {
               <span className="text-neutral-400">SYS.STATUS:</span>
               <span className="text-[#ccff00] font-bold">OPTIMAL [100%]</span>
             </span>
-            <span className="hidden sm:inline text-neutral-500">//</span>
+            <span className="hidden sm:inline text-neutral-500">{"//"}</span>
             <span className="hidden sm:inline text-neutral-300">
               LATENCY: <span className="text-[#ccff00] font-bold">12ms</span>
             </span>

@@ -44,13 +44,13 @@ export function CyberHero() {
         {/* Top Tag Line */}
         <div className="flex flex-wrap items-center gap-2 font-mono text-xs text-[#ccff00] mb-8 tracking-wider">
           <span className="font-semibold">
-            // [001] SOFTWARE ENGINEER &amp; FULL-STACK ARCHITECT
+            {"// [001] SOFTWARE ENGINEER & FULL-STACK ARCHITECT"}
           </span>
-          <span className="text-neutral-500">//</span>
+          <span className="text-neutral-500">{"//"}</span>
           <span className="text-neutral-300">
             C# // .NET CORE // GO // REACT // NEXT.JS // TS
           </span>
-          <span className="text-neutral-500">//</span>
+          <span className="text-neutral-500">{"//"}</span>
           <span className="text-neutral-300">3+ YEARS EXP</span>
         </div>
 
@@ -131,7 +131,7 @@ export function CyberHero() {
                   >
                     <div className="font-mono text-xs text-neutral-400 tracking-wider mb-1.5 flex items-center justify-between">
                       <span className="text-neutral-400 font-semibold">
-                        {item.num} //
+                        {item.num} {"//"}
                       </span>
                       <span className="text-neutral-500 group-hover:text-[#ccff00] transition-colors">
                         ■
@@ -178,7 +178,7 @@ export function CyberHero() {
                   <span>GITHUB</span>
                   <span className="text-[#ccff00]">→</span>
                 </a>
-                <span className="text-neutral-600">//</span>
+                <span className="text-neutral-600">{"//"}</span>
                 <a
                   href="https://www.linkedin.com/in/shamali-dilrukshi-482478225/"
                   target="_blank"
@@ -188,7 +188,7 @@ export function CyberHero() {
                   <span>LINKEDIN</span>
                   <span className="text-[#ccff00]">→</span>
                 </a>
-                <span className="text-neutral-600">//</span>
+                <span className="text-neutral-600">{"//"}</span>
                 <a
                   href="https://medium.com/@mgshamalidilrukshi"
                   target="_blank"
@@ -209,7 +209,7 @@ export function CyberHero() {
               <div className="flex items-center justify-between pb-3.5 mb-4 border-b border-[#1f2734] font-mono text-xs">
                 <div className="flex items-center gap-2">
                   <span className="text-[#ccff00] font-bold">FIG. 01</span>
-                  <span className="text-neutral-500">//</span>
+                  <span className="text-neutral-500">{"//"}</span>
                   <span className="text-neutral-100 font-semibold tracking-wider">
                     ENGINEER PROFILE
                   </span>
@@ -317,7 +317,7 @@ export function CyberHero() {
         <div className="mt-16 pt-5 border-t border-[#1f2630] flex flex-col sm:flex-row items-start sm:items-center justify-between font-mono text-xs text-neutral-400 gap-2">
           <div className="flex items-center gap-2">
             <span className="text-[#ccff00] font-semibold">
-              // SYSTEM INIT:
+              {"// SYSTEM INIT:"}
             </span>
             <span className="text-neutral-300">
               C#, .NET CORE, GO, REACT, NEXT.JS ENVIRONMENT VERIFIED
